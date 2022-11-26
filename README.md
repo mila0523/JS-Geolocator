@@ -11,7 +11,7 @@ This is a simple demo of how the Javascript (JS) geolocator works to fing live l
   - The html file included in this project will help you view your results in any browser of your choice.
   
 - Instructions to run test:
-  - visit https://github.com/mila0523/js-geolocation
+  - visit: https://mila0523.github.io/js-geolocation/
   
   - or alternatively run on your localhost machine
     - Step 1: Download files.
