@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test JS - Geolocator</title>
+    <meta author="Mila Mbopha" created="27/11/2022">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: rgb(221, 212, 204)">
+    <!--<button type="button" onclick="sendmail()" id="locate">locate</button-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">JS Geolocator - Mila0523</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-lg-2 dframe">
+            <h4>Functions</h4>
+            <p>Initiate tracking</p>
+            <hr>
+            <button type="button" onclick="locateMe()" class="btn btn-primary">My Current location</button>
+            <br><br>
+            <button type="button" onclick="livetrack()" class="btn btn-danger">Track live location</button>
+            <br><br>
+            <p>
+                Disclaimer: This demo does not share your location with any organisations,
+                programmes or any other Api applications on the web. it is solely just a
+                demo of how the Javascript geolocator works.
+            </p>
+            <p>
+                <b>Note:</b> If u click on the <em><b>"Track live location"</b></em> before <em><b>"My current
+                        location"</b></em> button,
+                the my currennt location method is diabled
+            </p>
+        </div>&nbsp;&nbsp;
+
+        <div class="col-lg-4 dframe">
+            <h4>Coordinates :</h4>
+            <p>Current Location</p>
+            <hr>
+
+            <div id="loglocation">
+
+            </div>
+        </div>&nbsp;&nbsp;
+
+        <div class="col-lg-5 dframe">
+            <h4>Coordinates :</h4>
+            <p>Live Location</p>
+            <hr>
+            <div id="loglivelocation">
+
+            </div>
+        </div>
+    </div>
+    <div style="height: 2vh;"></div>
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+    </footer>
+
+    <!--scripts-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

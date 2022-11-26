@@ -1,0 +1,19 @@
+.dframe{
+    height: 85vh;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.row{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+body{
+    overflow-x: hidden;
+}
